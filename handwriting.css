@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+#canvas{
+	display:block;
+	margin:0 auto;
+}
+#controller{
+	width:400px;
+	margin:0 auto;
+}
+.color_btn{
+	float:left;
+	margin:10px 5px;
+	width:30px;
+	height:30px;
+	border:2px solid #fff;
+	border-radius:5px;
+	cursor:pointer;
+}
+.color_btn:hover{
+	border-color:violet;
+}
+.color_btn_selected{
+	border-color:blueviolet;
+}
+#black_btn{
+	background-color:black;
+}
+#blue_btn{
+	background-color:blue;
+}
+#green_btn{
+	background-color:green;
+}
+#red_btn{
+	background-color:red;
+}
+#orange_btn{
+	background-color:orange;
+}
+#yellow_btn{
+	background-color:yellow;
+}
+.clear_btn{
+	float:right;
+	margin:10px;
+	width:50px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius:5px;
+	cursor:pointer;
+	font-size:14px;
+	background-color:#fff;
+	border:2px #aaa solid;
+}
+.clear_btn:hover{
+	background-color:#def;
+}
